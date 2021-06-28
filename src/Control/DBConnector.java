@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class DBConnector {
 
-    private String url = "jdbc:postgresql://localhost:5432/books?user=postgres&password=jethro";
-    private String user = "postgres";
-    private String password = "jethro";
+    private String url = "";
+    private String user = "";
+    private String password = "";
 
     public enum ACTION {
         INSERT,
